@@ -3,8 +3,11 @@
     height: 30px;
     width: fit-content;
     font-size: 14px;
+    font-weight: 600;
     line-height: 30px;
     border-radius: 25px;
-    background-color: blue;
     color: white;
+}
+.tag:hover{
+    transform: scale(1.05);
 }

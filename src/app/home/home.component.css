@@ -1,3 +1,7 @@
 .text-justify {
     text-align: justify;
   }
+.big-card {
+  border-radius: 25px;
+  background-color: #d5f4fa;
+}
