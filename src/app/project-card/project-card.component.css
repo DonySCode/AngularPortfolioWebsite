@@ -1,4 +1,13 @@
-.tag:hover{
+.tag{
+    font-weight: 600;
+}
+.card:hover{
+    transform:scale(1.01);
+}
+.viewmore {
+    font-weight: 500;
+    border-radius: 10px;
+}
+.viewmore:hover {
     transform: scale(1.05);
-    cursor: pointer;
 }

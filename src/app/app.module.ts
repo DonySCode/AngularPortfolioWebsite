@@ -36,7 +36,7 @@ import { FormsModule } from '@angular/forms';
     ModalModule.forRoot(),
     CarouselModule.forRoot(),
     CollapseModule.forRoot(),
-    FormsModule
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
