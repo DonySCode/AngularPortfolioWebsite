@@ -1,3 +1,93 @@
 <div class="container text-center">
-    <button (click)="" class="btn btn-primary mb-5 shadow border fw-bolder rounded-4 downloadbtn">Download PDF Resume</button>
+    <button (click)="DownloadFile()" class="btn btn-primary mb-5 shadow border fw-bolder rounded-4 downloadbtn">Download PDF Resume</button>
+    
+    <div class="pb-2">
+        <accordion [isAnimated]="true" class="shadow">    
+            <accordion-group heading="Work Experience">
+                <div style="text-align: left;">
+                    <h2 class="mb-0">Operations Supervisor</h2>
+                    <h3 class="text-primary">Teleperformance</h3>
+                    <ul>
+                        <li>Managing and overseeing a team of customer service representatives.</li>
+                        <li>Motivating and supporting agents through feedback and communication.</li>
+                        <li>Measuring KPIs like inbound calls, customer satisfaction, call time and waiting.</li>
+                        <li>Preparing weekly/daily results and performance reports.</li>
+                        <li>Solving clients escalations when needed.</li>
+                    </ul>
+                </div>    
+                <hr>
+                <div style="text-align: left;">
+                    <h2 class="mb-0">Bilingual Customer Service Representative</h2>
+                    <h3 class="text-primary">Teleperformance</h3>
+                    <ul>
+                        <li>Maintaining a positive, empathetic, and professional attitude toward customers at all times.</li>
+                        <li>Responding promptly to customer inquiries.</li>
+                        <li>Keeping records of customer interactions.</li>
+                        <li>Redirecting customers to the pertinent department, if needed.</li>
+                        <li>Escalate customer requests to managers and supervisors when needed.</li>
+                    </ul>
+                </div>    
+                <hr>
+                <div style="text-align: left;">
+                    <h2 class="mb-0">Machine Technician Intern</h2>
+                    <h3 class="text-primary">Fresenius Kabi</h3>
+                    <ul>
+                        <li>PLC Programming.</li>
+                        <li>Installing, repairing, or maintaining industrial machinery or equipment such as power generators, motors, pumps, valves, or boilers.</li>
+                        <li>Diagnosing machine malfunctions by reviewing error codes, inspecting components, and testing systems.</li>
+                        <li>Troubleshooting problems with machines to determine causes of breakdowns or malfunctions.</li>
+                        <li>Completing machine repairing requests from production.</li>
+                    </ul>
+                </div> 
+                </accordion-group>
+                <accordion-group heading="Education">
+                    <div style="text-align: left;">
+                        <h2 class="mb--0">Software Development</h2>
+                        <h3 class="text-primary">Technological Institute of the Americas (ITLA)</h3>
+                        <ul>
+                            <li>Design and analysis of mobile, web and desktop applications.</li>
+                            <li>Management and design of software architectures, for the creation of clean and reusable code.</li>
+                        </ul>
+                    </div>
+                    <div style="text-align: left;">
+                        <h2 class="mb--0">Electronic Equipment Technician</h2>
+                        <h3 class="text-primary">Instituto Politecnico Loyola (IPL)</h3>
+                        <ul>
+                            <li>Analysis, design and manufacture of electrical and electronic circuits.</li>
+                            <li>PLC programming with Ladder.</li>
+                            <li>Basic programming with C#.</li>
+                            <li>Basic programming with C++.</li>
+                        </ul>
+                    </div>
+                </accordion-group>
+                <accordion-group heading="Skills">
+                    <div class="row" style="text-align: left;">
+                        <div class="col">
+                            <h3>Programming Languages:</h3>
+                            <ul>
+                                <li>C#</li>
+                                <li>Python</li>
+                                <li>Java</li>
+                                <li>TypeScript</li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <h3>Frameworks:</h3>
+                            <ul>
+                                <li>Angular</li>
+                                <li>ASP.NET</li>
+                                <li>React</li>
+                                <li>Node.JS</li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <h3>Other Skills:</h3>
+                            <li>Source Control via Git</li>
+                            <li>MVC Architecture</li>
+                            <li>Agile Development</li>
+                        </div>
+                    </div>
+                </accordion-group>
+        </accordion>
+    </div>
 </div>
