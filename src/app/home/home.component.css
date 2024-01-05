@@ -1,5 +1,6 @@
 .text-justify {
     text-align: justify;
+    font-weight: 400;
   }
 .big-card {
   border-radius: 25px;
